@@ -12,10 +12,30 @@
 <body class="main__body">
   <div class="wrapper">
     <!-- Header -->
-    @@include('./html/_header.html')
+    @@include('./html/_header-second.html')
 
     <!-- Main Page -->
-    <main></main>
+    <main>
+      <div class="home">
+
+        <div class="main-bg">
+          <picture>
+            <source srcset="./img/main/main-bg-2.webp 1x, ./img/main/main-bg-2@2x.webp 2x" type="image/webp">
+            <source srcset="./img/main/main-bg-2.png 1x, ./img/main/main-bg-2@2x.png 2x" type="image/png">
+            <img src="./img/main/main-bg-2.png" srcset="./img/main/main-bg-2@2x.png" alt="picture">
+          </picture>
+        </div>
+
+        <div class="home__welcome">
+          <h1 class="home__title">Build a factory</h1>
+          <h2 class="home__subtitle">Under Constraction</h2>
+        </div>
+
+        <div class="home__btn">
+          <a class="btn" href="#">Start Farming</a>
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
     @@include('./html/_footer.html')

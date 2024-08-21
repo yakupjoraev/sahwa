@@ -4,7 +4,11 @@
 
   // .header__inner
 
-  &__inner {}
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
 
   // .header__columns
   &__columns {
@@ -223,5 +227,52 @@
     text-transform: uppercase;
     color: var(--white-color);
     opacity: 0.6;
+  }
+}
+
+
+.header {
+  position: relative;
+  z-index: 2;
+  // .header__wallet
+
+  &__wallet {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    height: fit-content;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: var(--black-color);
+  }
+
+  // .header__count
+
+  &__count {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+  }
+
+  // .header__count-sum
+
+  &__count-sum {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--main-orange);
+  }
+
+  // .header__wallet-picture
+
+  &__wallet-picture {
+    flex: 0 0 60px;
+    padding-left: 12px;
+    border-left: 1px solid #282828;
   }
 }

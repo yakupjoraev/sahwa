@@ -1,0 +1,114 @@
+.tokenomics {
+
+  // .tokenomics__head
+
+  &__head {
+    margin-bottom: 20px;
+
+    .title {
+      margin-bottom: 16px;
+    }
+  }
+
+  // .tokenomics__middle
+
+  &__middle {
+    margin-bottom: 20px;
+  }
+
+  // .tokenomics__graphik
+
+  &__graphik {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+  }
+
+  // .tokenomics__graphik-sum
+
+  &__graphik-sum {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--text-color);
+  }
+
+  // .tokenomics__graphik-picture
+
+  &__graphik-picture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  // .tokenomics__footer
+
+  &__footer {}
+
+  // .tokenomics__list
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  // .tokenomics__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+
+  // .tokenomics__item-percent
+
+  &__item-percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: var(--main-orange);
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: var(--black-color);
+  }
+
+  // .tokenomics__item-info
+
+  &__item-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+  }
+
+  // .tokenomics__item-label
+
+  &__item-label {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text-color);
+  }
+
+  // .tokenomics__item-text
+
+  &__item-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--text-2);
+  }
+}

@@ -13,7 +13,14 @@
           </div>
         </div>
         <div class="wallet__airdrop">
-          <img class="wallet__airdrop-icon" src="./img/icons/box-with-umbrella.png" alt="box-with-umbrella icon">
+          <picture>
+            <source srcset="./img/roadmap/box-with-umbrella.webp 1x, ./img/roadmap/box-with-umbrella@2x.webp 2x"
+              type="image/webp">
+            <source srcset="./img/roadmap/box-with-umbrella.png 1x, ./img/roadmap/box-with-umbrella@2x.png 2x"
+              type="image/png">
+            <img class="wallet__airdrop-icon" width="42" src="./img/roadmap/box-with-umbrella.png"
+              srcset="./img/roadmap/box-with-umbrella@2x.png" alt="picture">
+          </picture>
           <p class="wallet__airdrop-text">Airdrop</p>
         </div>
       </div>
