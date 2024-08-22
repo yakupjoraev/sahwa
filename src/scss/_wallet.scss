@@ -160,6 +160,9 @@
   // .wallet__link
 
   &__link {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;

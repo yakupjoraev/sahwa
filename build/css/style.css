@@ -675,6 +675,11 @@ body.locked {
   color: var(--text-color);
 }
 
+.table-wrapper td a {
+  color: var(--main-orange);
+  text-decoration: underline;
+}
+
 .table-wrapper td:first-child {
   padding-left: 16px;
 }
@@ -884,6 +889,13 @@ body.locked {
 }
 
 .wallet__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -1662,7 +1674,7 @@ body.locked {
   font-size: 12px;
   text-transform: uppercase;
   color: var(--white-color);
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .roadmap__label {
@@ -1878,6 +1890,7 @@ body.locked {
   pointer-events: none;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
+  color: #bcbbbb;
 }
 
 .capital {

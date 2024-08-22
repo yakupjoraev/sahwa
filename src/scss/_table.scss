@@ -34,6 +34,11 @@
     line-height: 110%;
     color: var(--text-color);
 
+    a {
+      color: var(--main-orange);
+      text-decoration: underline;
+    }
+
     &:first-child {
       padding-left: 16px;
     }
